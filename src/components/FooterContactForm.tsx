@@ -16,13 +16,13 @@ export default function CommentSection() {
   }, []);
 
   // Store the comment in localStorage whenever the user types it
-  const handleCommentChange = (e) => {
+  const handleCommentChange = (e:any) => {
     const newComment = e.target.value;
     setComment(newComment); // Update state
     localStorage.setItem("userComment", newComment); // Save to localStorage as user types
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e:any) => {
     e.preventDefault();
     // Save the submitted comment to localStorage
     localStorage.setItem("userComment", comment);
