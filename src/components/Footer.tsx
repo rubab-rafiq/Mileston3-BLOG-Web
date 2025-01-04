@@ -58,7 +58,8 @@ export default function Footer() {
       <section className="px-6 xs:px-8 sm:px-12 lg:px-16 xl:px-24 2xl:px-32 py-2 flex flex-col sm:flex-row justify-between items-center gap-2">
         <div className="flex justify-center items-center gap-x-2 text-sm text-light">
           <p className="">
-            Developed
+
+            {/* Escaping double quotes and apostrophes */}
             <span>&nbsp;💖&nbsp;with&nbsp;&quot;Next.js&quot;</span>
 
           </p>
