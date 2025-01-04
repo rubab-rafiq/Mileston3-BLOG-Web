@@ -59,7 +59,8 @@ export default function Footer() {
         <div className="flex justify-center items-center gap-x-2 text-sm text-light">
           <p className="">
             Developed
-            <span>&nbsp;💖&nbsp;with&nbsp;</span>Next.js
+            <span>&nbsp;💖&nbsp;with&nbsp;&quot;Next.js&quot;</span>
+
           </p>
 
           <Link href={"https://nextjs.org/"} target="_blank">
