@@ -35,7 +35,7 @@ export default function CommentSection() {
   };
 
   return (
-    <section className="bg-gradient-to-r from-yellow-400 to-yellow-600 text-white p-6 w-full md:w-1/2 rounded-lg shadow-lg">
+    <section className="bg-gradient-to-r from-yellow-400 to-yellow-600 text-white p-6 w-full md:w-1/2  shadow-lg">
       <h4 className="text-3xl font-extrabold text-center mb-4 text-black">Leave a Comment</h4>
       <form onSubmit={handleSubmit}>
         <textarea
