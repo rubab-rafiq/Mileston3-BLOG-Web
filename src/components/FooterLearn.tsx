@@ -8,11 +8,14 @@ export default function ContactSection() {
       <h4 className="text-4xl font-bold text-center mb-6 text-gray-100">Contact Me</h4>
       <div className="flex flex-col gap-6 p-5">
         {/* Name */}
-        <div className="flex items-center gap-3 text-xl">
+        {/* <div className="flex items-center gap-3 text-xl">
           <span className="font-semibold">Name:</span>
           <span>Rubab</span>
-        </div>
-
+        </div> */}
+                <div className="flex items-center gap-3 text-sm">
+          <p className="font-semibold text-xl"> About me:
+          <span className="text-base font-light">  "Hi, I'm Rubab! I'm proficient in TypeScript, HTML, and CSS. Currently, I'm expanding my skills in Next.js and Tailwind CSS."</span>
+      </p>  </div>
         {/* Phone */}
         <div className="flex items-center gap-4 font-semibold">
           <FaPhone className="text-3xl text-green-300" />
