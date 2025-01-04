@@ -10,9 +10,13 @@ export default function ContactSection() {
         {/* About Me */}
         <div className="text-center text-sm lg:text-lg">
           <p className="font-semibold text-xl text-gray-200">About Me:</p>
-          <p className="text-base font-light text-gray-300">
+         {/* <p className="text-base font-light text-gray-300">
             Hi, I'm Rubab! I'm proficient in TypeScript, HTML, and CSS. Currently, I'm expanding my skills in Next.js and Tailwind CSS.
-          </p>
+          </p>  */}
+          <p className="text-base font-light text-gray-300">
+      Hi, I&apos;m Rubab! I&apos;m proficient in TypeScript, HTML, and CSS. Currently, I&apos;m expanding my skills in Next.js and Tailwind CSS.
+      </p>
+
         </div>
 
         {/* Phone */}
