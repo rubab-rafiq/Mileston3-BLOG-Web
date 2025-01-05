@@ -28,6 +28,7 @@ export default function ContactSection() {
         {/* Email */}
         <div className="flex items-center gap-4 font-semibold text-lg">
           <FaEnvelope className="text-3xl text-blue-400" />
+        
           <a
             href="mailto:rubabrafique05@gmail.com"
             className="text-gray-200 hover:text-blue-500 transition-colors"
@@ -39,6 +40,7 @@ export default function ContactSection() {
         {/* LinkedIn */}
         <div className="flex items-center gap-4 font-semibold text-lg">
           <FaLinkedin className="text-3xl text-sky-500" />
+        
           <Link
             href="https://www.linkedin.com/in/rubab"
             target="_blank"
