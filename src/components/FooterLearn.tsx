@@ -42,7 +42,7 @@ export default function ContactSection() {
           <FaLinkedin className="text-3xl text-sky-500" />
         
           <Link
-            href="https://www.linkedin.com/in/rubab"
+            href="https://www.linkedin.com/in/rubab-m-rafiq-8696a2330/"
             target="_blank"
             className="text-gray-200 hover:text-sky-600 transition-colors"
           >
